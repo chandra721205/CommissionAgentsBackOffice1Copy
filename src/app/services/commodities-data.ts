@@ -1,0 +1,261 @@
+// 200+ Commodities Database for TRADIE v1
+import { Commodity } from '../types/tradie-prototype';
+
+export const COMMODITIES: Commodity[] = [
+  // Coconuts (10 varieties)
+  { id: 'COC001', name: 'Coconut West Coast Tall', category: 'Coconut', variety: 'WCT', unit: 'Nos' },
+  { id: 'COC002', name: 'Coconut East Coast Tall', category: 'Coconut', variety: 'ECT', unit: 'Nos' },
+  { id: 'COC003', name: 'Coconut Chowghat Orange Dwarf', category: 'Coconut', variety: 'COD', unit: 'Nos' },
+  { id: 'COC004', name: 'Coconut Malayan Yellow Dwarf', category: 'Coconut', variety: 'MYD', unit: 'Nos' },
+  { id: 'COC005', name: 'Coconut Hybrid', category: 'Coconut', variety: 'Hybrid', unit: 'Nos' },
+  { id: 'COC006', name: 'Tender Coconut', category: 'Coconut', variety: 'Tender', unit: 'Nos' },
+  { id: 'COC007', name: 'Copra', category: 'Coconut', variety: 'Dried', unit: 'Kg' },
+  { id: 'COC008', name: 'Coconut Oil', category: 'Coconut', variety: 'Oil', unit: 'Liters' },
+  { id: 'COC009', name: 'Desiccated Coconut', category: 'Coconut', variety: 'Processed', unit: 'Kg' },
+  { id: 'COC010', name: 'Coconut Shell', category: 'Coconut', variety: 'Shell', unit: 'Kg' },
+
+  // Mushrooms (8 varieties)
+  { id: 'MUS001', name: 'Mushroom Oyster', category: 'Mushroom', variety: 'Oyster', unit: 'Kg' },
+  { id: 'MUS002', name: 'Mushroom Button', category: 'Mushroom', variety: 'Button', unit: 'Kg' },
+  { id: 'MUS003', name: 'Mushroom Shiitake', category: 'Mushroom', variety: 'Shiitake', unit: 'Kg' },
+  { id: 'MUS004', name: 'Mushroom Milky', category: 'Mushroom', variety: 'Milky', unit: 'Kg' },
+  { id: 'MUS005', name: 'Mushroom Paddy Straw', category: 'Mushroom', variety: 'Paddy Straw', unit: 'Kg' },
+  { id: 'MUS006', name: 'Mushroom Reishi', category: 'Mushroom', variety: 'Reishi', unit: 'Kg' },
+  { id: 'MUS007', name: 'Mushroom Enoki', category: 'Mushroom', variety: 'Enoki', unit: 'Kg' },
+  { id: 'MUS008', name: 'Mushroom Portobello', category: 'Mushroom', variety: 'Portobello', unit: 'Kg' },
+
+  // Rice (20 varieties)
+  { id: 'RIC001', name: 'Rice Basmati', category: 'Rice', variety: 'Basmati', unit: 'Quintal' },
+  { id: 'RIC002', name: 'Rice Ponni', category: 'Rice', variety: 'Ponni', unit: 'Quintal' },
+  { id: 'RIC003', name: 'Rice Sona Masoori', category: 'Rice', variety: 'Sona Masoori', unit: 'Quintal' },
+  { id: 'RIC004', name: 'Rice IR64', category: 'Rice', variety: 'IR64', unit: 'Quintal' },
+  { id: 'RIC005', name: 'Rice Pusa', category: 'Rice', variety: 'Pusa', unit: 'Quintal' },
+  { id: 'RIC006', name: 'Rice Jasmine', category: 'Rice', variety: 'Jasmine', unit: 'Quintal' },
+  { id: 'RIC007', name: 'Rice Kolam', category: 'Rice', variety: 'Kolam', unit: 'Quintal' },
+  { id: 'RIC008', name: 'Rice Parboiled', category: 'Rice', variety: 'Parboiled', unit: 'Quintal' },
+  { id: 'RIC009', name: 'Rice Brown', category: 'Rice', variety: 'Brown', unit: 'Quintal' },
+  { id: 'RIC010', name: 'Rice Red', category: 'Rice', variety: 'Red', unit: 'Quintal' },
+  { id: 'RIC011', name: 'Rice Black', category: 'Rice', variety: 'Black', unit: 'Quintal' },
+  { id: 'RIC012', name: 'Rice Sticky', category: 'Rice', variety: 'Sticky', unit: 'Quintal' },
+  { id: 'RIC013', name: 'Rice Arborio', category: 'Rice', variety: 'Arborio', unit: 'Quintal' },
+  { id: 'RIC014', name: 'Rice Wild', category: 'Rice', variety: 'Wild', unit: 'Quintal' },
+  { id: 'RIC015', name: 'Rice Bomba', category: 'Rice', variety: 'Bomba', unit: 'Quintal' },
+  { id: 'RIC016', name: 'Rice Calrose', category: 'Rice', variety: 'Calrose', unit: 'Quintal' },
+  { id: 'RIC017', name: 'Rice Koshihikari', category: 'Rice', variety: 'Koshihikari', unit: 'Quintal' },
+  { id: 'RIC018', name: 'Rice Carnaroli', category: 'Rice', variety: 'Carnaroli', unit: 'Quintal' },
+  { id: 'RIC019', name: 'Rice Valencia', category: 'Rice', variety: 'Valencia', unit: 'Quintal' },
+  { id: 'RIC020', name: 'Rice Organic', category: 'Rice', variety: 'Organic', unit: 'Quintal' },
+
+  // Wheat (10 varieties)
+  { id: 'WHE001', name: 'Wheat Durum', category: 'Wheat', variety: 'Durum', unit: 'Quintal' },
+  { id: 'WHE002', name: 'Wheat Emmer', category: 'Wheat', variety: 'Emmer', unit: 'Quintal' },
+  { id: 'WHE003', name: 'Wheat Einkorn', category: 'Wheat', variety: 'Einkorn', unit: 'Quintal' },
+  { id: 'WHE004', name: 'Wheat Spelt', category: 'Wheat', variety: 'Spelt', unit: 'Quintal' },
+  { id: 'WHE005', name: 'Wheat Kamut', category: 'Wheat', variety: 'Kamut', unit: 'Quintal' },
+  { id: 'WHE006', name: 'Wheat Hard Red Winter', category: 'Wheat', variety: 'HRW', unit: 'Quintal' },
+  { id: 'WHE007', name: 'Wheat Hard Red Spring', category: 'Wheat', variety: 'HRS', unit: 'Quintal' },
+  { id: 'WHE008', name: 'Wheat Soft Red Winter', category: 'Wheat', variety: 'SRW', unit: 'Quintal' },
+  { id: 'WHE009', name: 'Wheat White', category: 'Wheat', variety: 'White', unit: 'Quintal' },
+  { id: 'WHE010', name: 'Wheat Organic', category: 'Wheat', variety: 'Organic', unit: 'Quintal' },
+
+  // Pulses (15 varieties)
+  { id: 'PUL001', name: 'Toor Dal', category: 'Pulses', variety: 'Toor', unit: 'Quintal' },
+  { id: 'PUL002', name: 'Moong Dal', category: 'Pulses', variety: 'Moong', unit: 'Quintal' },
+  { id: 'PUL003', name: 'Urad Dal', category: 'Pulses', variety: 'Urad', unit: 'Quintal' },
+  { id: 'PUL004', name: 'Chana Dal', category: 'Pulses', variety: 'Chana', unit: 'Quintal' },
+  { id: 'PUL005', name: 'Masoor Dal', category: 'Pulses', variety: 'Masoor', unit: 'Quintal' },
+  { id: 'PUL006', name: 'Kabuli Chana', category: 'Pulses', variety: 'Kabuli', unit: 'Quintal' },
+  { id: 'PUL007', name: 'Kidney Beans', category: 'Pulses', variety: 'Rajma', unit: 'Quintal' },
+  { id: 'PUL008', name: 'Black Gram', category: 'Pulses', variety: 'Black Gram', unit: 'Quintal' },
+  { id: 'PUL009', name: 'Green Gram', category: 'Pulses', variety: 'Green Gram', unit: 'Quintal' },
+  { id: 'PUL010', name: 'Lentils', category: 'Pulses', variety: 'Lentils', unit: 'Quintal' },
+  { id: 'PUL011', name: 'Chickpeas', category: 'Pulses', variety: 'Chickpeas', unit: 'Quintal' },
+  { id: 'PUL012', name: 'Peas', category: 'Pulses', variety: 'Peas', unit: 'Quintal' },
+  { id: 'PUL013', name: 'Soybean', category: 'Pulses', variety: 'Soybean', unit: 'Quintal' },
+  { id: 'PUL014', name: 'Pigeon Pea', category: 'Pulses', variety: 'Pigeon Pea', unit: 'Quintal' },
+  { id: 'PUL015', name: 'Lima Beans', category: 'Pulses', variety: 'Lima', unit: 'Quintal' },
+
+  // Spices (20 varieties)
+  { id: 'SPI001', name: 'Turmeric', category: 'Spices', variety: 'Turmeric', unit: 'Kg' },
+  { id: 'SPI002', name: 'Cardamom', category: 'Spices', variety: 'Cardamom', unit: 'Kg' },
+  { id: 'SPI003', name: 'Black Pepper', category: 'Spices', variety: 'Black Pepper', unit: 'Kg' },
+  { id: 'SPI004', name: 'Cumin', category: 'Spices', variety: 'Cumin', unit: 'Kg' },
+  { id: 'SPI005', name: 'Coriander', category: 'Spices', variety: 'Coriander', unit: 'Kg' },
+  { id: 'SPI006', name: 'Cinnamon', category: 'Spices', variety: 'Cinnamon', unit: 'Kg' },
+  { id: 'SPI007', name: 'Cloves', category: 'Spices', variety: 'Cloves', unit: 'Kg' },
+  { id: 'SPI008', name: 'Nutmeg', category: 'Spices', variety: 'Nutmeg', unit: 'Kg' },
+  { id: 'SPI009', name: 'Mace', category: 'Spices', variety: 'Mace', unit: 'Kg' },
+  { id: 'SPI010', name: 'Star Anise', category: 'Spices', variety: 'Star Anise', unit: 'Kg' },
+  { id: 'SPI011', name: 'Fennel', category: 'Spices', variety: 'Fennel', unit: 'Kg' },
+  { id: 'SPI012', name: 'Fenugreek', category: 'Spices', variety: 'Fenugreek', unit: 'Kg' },
+  { id: 'SPI013', name: 'Mustard', category: 'Spices', variety: 'Mustard', unit: 'Kg' },
+  { id: 'SPI014', name: 'Chili Powder', category: 'Spices', variety: 'Chili', unit: 'Kg' },
+  { id: 'SPI015', name: 'Ginger', category: 'Spices', variety: 'Ginger', unit: 'Kg' },
+  { id: 'SPI016', name: 'Garlic', category: 'Spices', variety: 'Garlic', unit: 'Kg' },
+  { id: 'SPI017', name: 'Saffron', category: 'Spices', variety: 'Saffron', unit: 'Kg' },
+  { id: 'SPI018', name: 'Vanilla', category: 'Spices', variety: 'Vanilla', unit: 'Kg' },
+  { id: 'SPI019', name: 'Bay Leaf', category: 'Spices', variety: 'Bay Leaf', unit: 'Kg' },
+  { id: 'SPI020', name: 'Asafoetida', category: 'Spices', variety: 'Asafoetida', unit: 'Kg' },
+
+  // Vegetables (30 varieties)
+  { id: 'VEG001', name: 'Tomato', category: 'Vegetables', variety: 'Tomato', unit: 'Kg' },
+  { id: 'VEG002', name: 'Onion', category: 'Vegetables', variety: 'Onion', unit: 'Kg' },
+  { id: 'VEG003', name: 'Potato', category: 'Vegetables', variety: 'Potato', unit: 'Kg' },
+  { id: 'VEG004', name: 'Cabbage', category: 'Vegetables', variety: 'Cabbage', unit: 'Kg' },
+  { id: 'VEG005', name: 'Cauliflower', category: 'Vegetables', variety: 'Cauliflower', unit: 'Kg' },
+  { id: 'VEG006', name: 'Carrot', category: 'Vegetables', variety: 'Carrot', unit: 'Kg' },
+  { id: 'VEG007', name: 'Beetroot', category: 'Vegetables', variety: 'Beetroot', unit: 'Kg' },
+  { id: 'VEG008', name: 'Radish', category: 'Vegetables', variety: 'Radish', unit: 'Kg' },
+  { id: 'VEG009', name: 'Cucumber', category: 'Vegetables', variety: 'Cucumber', unit: 'Kg' },
+  { id: 'VEG010', name: 'Brinjal', category: 'Vegetables', variety: 'Brinjal', unit: 'Kg' },
+  { id: 'VEG011', name: 'Okra', category: 'Vegetables', variety: 'Okra', unit: 'Kg' },
+  { id: 'VEG012', name: 'Bitter Gourd', category: 'Vegetables', variety: 'Bitter Gourd', unit: 'Kg' },
+  { id: 'VEG013', name: 'Bottle Gourd', category: 'Vegetables', variety: 'Bottle Gourd', unit: 'Kg' },
+  { id: 'VEG014', name: 'Ridge Gourd', category: 'Vegetables', variety: 'Ridge Gourd', unit: 'Kg' },
+  { id: 'VEG015', name: 'Pumpkin', category: 'Vegetables', variety: 'Pumpkin', unit: 'Kg' },
+  { id: 'VEG016', name: 'Spinach', category: 'Vegetables', variety: 'Spinach', unit: 'Kg' },
+  { id: 'VEG017', name: 'Fenugreek Leaves', category: 'Vegetables', variety: 'Methi', unit: 'Kg' },
+  { id: 'VEG018', name: 'Coriander Leaves', category: 'Vegetables', variety: 'Coriander', unit: 'Kg' },
+  { id: 'VEG019', name: 'Mint', category: 'Vegetables', variety: 'Mint', unit: 'Kg' },
+  { id: 'VEG020', name: 'Bell Pepper', category: 'Vegetables', variety: 'Capsicum', unit: 'Kg' },
+  { id: 'VEG021', name: 'Green Chili', category: 'Vegetables', variety: 'Green Chili', unit: 'Kg' },
+  { id: 'VEG022', name: 'Drumstick', category: 'Vegetables', variety: 'Drumstick', unit: 'Kg' },
+  { id: 'VEG023', name: 'Broccoli', category: 'Vegetables', variety: 'Broccoli', unit: 'Kg' },
+  { id: 'VEG024', name: 'Lettuce', category: 'Vegetables', variety: 'Lettuce', unit: 'Kg' },
+  { id: 'VEG025', name: 'Celery', category: 'Vegetables', variety: 'Celery', unit: 'Kg' },
+  { id: 'VEG026', name: 'Asparagus', category: 'Vegetables', variety: 'Asparagus', unit: 'Kg' },
+  { id: 'VEG027', name: 'Zucchini', category: 'Vegetables', variety: 'Zucchini', unit: 'Kg' },
+  { id: 'VEG028', name: 'Sweet Corn', category: 'Vegetables', variety: 'Corn', unit: 'Kg' },
+  { id: 'VEG029', name: 'Sweet Potato', category: 'Vegetables', variety: 'Sweet Potato', unit: 'Kg' },
+  { id: 'VEG030', name: 'Mushroom', category: 'Vegetables', variety: 'Mushroom', unit: 'Kg' },
+
+  // Fruits (25 varieties)
+  { id: 'FRU001', name: 'Mango', category: 'Fruits', variety: 'Mango', unit: 'Kg' },
+  { id: 'FRU002', name: 'Banana', category: 'Fruits', variety: 'Banana', unit: 'Kg' },
+  { id: 'FRU003', name: 'Apple', category: 'Fruits', variety: 'Apple', unit: 'Kg' },
+  { id: 'FRU004', name: 'Orange', category: 'Fruits', variety: 'Orange', unit: 'Kg' },
+  { id: 'FRU005', name: 'Grapes', category: 'Fruits', variety: 'Grapes', unit: 'Kg' },
+  { id: 'FRU006', name: 'Papaya', category: 'Fruits', variety: 'Papaya', unit: 'Kg' },
+  { id: 'FRU007', name: 'Watermelon', category: 'Fruits', variety: 'Watermelon', unit: 'Kg' },
+  { id: 'FRU008', name: 'Pineapple', category: 'Fruits', variety: 'Pineapple', unit: 'Nos' },
+  { id: 'FRU009', name: 'Pomegranate', category: 'Fruits', variety: 'Pomegranate', unit: 'Kg' },
+  { id: 'FRU010', name: 'Guava', category: 'Fruits', variety: 'Guava', unit: 'Kg' },
+  { id: 'FRU011', name: 'Lemon', category: 'Fruits', variety: 'Lemon', unit: 'Kg' },
+  { id: 'FRU012', name: 'Sweet Lime', category: 'Fruits', variety: 'Mosambi', unit: 'Kg' },
+  { id: 'FRU013', name: 'Dragon Fruit', category: 'Fruits', variety: 'Dragon Fruit', unit: 'Kg' },
+  { id: 'FRU014', name: 'Kiwi', category: 'Fruits', variety: 'Kiwi', unit: 'Kg' },
+  { id: 'FRU015', name: 'Strawberry', category: 'Fruits', variety: 'Strawberry', unit: 'Kg' },
+  { id: 'FRU016', name: 'Blueberry', category: 'Fruits', variety: 'Blueberry', unit: 'Kg' },
+  { id: 'FRU017', name: 'Raspberry', category: 'Fruits', variety: 'Raspberry', unit: 'Kg' },
+  { id: 'FRU018', name: 'Blackberry', category: 'Fruits', variety: 'Blackberry', unit: 'Kg' },
+  { id: 'FRU019', name: 'Litchi', category: 'Fruits', variety: 'Litchi', unit: 'Kg' },
+  { id: 'FRU020', name: 'Jackfruit', category: 'Fruits', variety: 'Jackfruit', unit: 'Kg' },
+  { id: 'FRU021', name: 'Custard Apple', category: 'Fruits', variety: 'Custard Apple', unit: 'Kg' },
+  { id: 'FRU022', name: 'Sapota', category: 'Fruits', variety: 'Chikoo', unit: 'Kg' },
+  { id: 'FRU023', name: 'Passion Fruit', category: 'Fruits', variety: 'Passion Fruit', unit: 'Kg' },
+  { id: 'FRU024', name: 'Avocado', category: 'Fruits', variety: 'Avocado', unit: 'Kg' },
+  { id: 'FRU025', name: 'Dates', category: 'Fruits', variety: 'Dates', unit: 'Kg' },
+
+  // Nuts (10 varieties)
+  { id: 'NUT001', name: 'Cashew', category: 'Nuts', variety: 'Cashew', unit: 'Kg' },
+  { id: 'NUT002', name: 'Almond', category: 'Nuts', variety: 'Almond', unit: 'Kg' },
+  { id: 'NUT003', name: 'Walnut', category: 'Nuts', variety: 'Walnut', unit: 'Kg' },
+  { id: 'NUT004', name: 'Pistachio', category: 'Nuts', variety: 'Pistachio', unit: 'Kg' },
+  { id: 'NUT005', name: 'Peanut', category: 'Nuts', variety: 'Peanut', unit: 'Kg' },
+  { id: 'NUT006', name: 'Hazelnut', category: 'Nuts', variety: 'Hazelnut', unit: 'Kg' },
+  { id: 'NUT007', name: 'Pecan', category: 'Nuts', variety: 'Pecan', unit: 'Kg' },
+  { id: 'NUT008', name: 'Macadamia', category: 'Nuts', variety: 'Macadamia', unit: 'Kg' },
+  { id: 'NUT009', name: 'Pine Nut', category: 'Nuts', variety: 'Pine Nut', unit: 'Kg' },
+  { id: 'NUT010', name: 'Brazil Nut', category: 'Nuts', variety: 'Brazil Nut', unit: 'Kg' },
+
+  // Oilseeds (10 varieties)
+  { id: 'OIL001', name: 'Groundnut', category: 'Oilseeds', variety: 'Groundnut', unit: 'Quintal' },
+  { id: 'OIL002', name: 'Sunflower', category: 'Oilseeds', variety: 'Sunflower', unit: 'Quintal' },
+  { id: 'OIL003', name: 'Mustard', category: 'Oilseeds', variety: 'Mustard', unit: 'Quintal' },
+  { id: 'OIL004', name: 'Sesame', category: 'Oilseeds', variety: 'Sesame', unit: 'Quintal' },
+  { id: 'OIL005', name: 'Safflower', category: 'Oilseeds', variety: 'Safflower', unit: 'Quintal' },
+  { id: 'OIL006', name: 'Linseed', category: 'Oilseeds', variety: 'Linseed', unit: 'Quintal' },
+  { id: 'OIL007', name: 'Castor', category: 'Oilseeds', variety: 'Castor', unit: 'Quintal' },
+  { id: 'OIL008', name: 'Niger Seed', category: 'Oilseeds', variety: 'Niger', unit: 'Quintal' },
+  { id: 'OIL009', name: 'Cotton Seed', category: 'Oilseeds', variety: 'Cotton Seed', unit: 'Quintal' },
+  { id: 'OIL010', name: 'Palm Oil', category: 'Oilseeds', variety: 'Palm', unit: 'Liters' },
+
+  // Cash Crops (20 varieties)
+  { id: 'CAS001', name: 'Cotton', category: 'Cash Crops', variety: 'Cotton', unit: 'Quintal' },
+  { id: 'CAS002', name: 'Sugarcane', category: 'Cash Crops', variety: 'Sugarcane', unit: 'Tonnes' },
+  { id: 'CAS003', name: 'Coffee', category: 'Cash Crops', variety: 'Coffee', unit: 'Kg' },
+  { id: 'CAS004', name: 'Tea', category: 'Cash Crops', variety: 'Tea', unit: 'Kg' },
+  { id: 'CAS005', name: 'Rubber', category: 'Cash Crops', variety: 'Rubber', unit: 'Kg' },
+  { id: 'CAS006', name: 'Jute', category: 'Cash Crops', variety: 'Jute', unit: 'Quintal' },
+  { id: 'CAS007', name: 'Tobacco', category: 'Cash Crops', variety: 'Tobacco', unit: 'Kg' },
+  { id: 'CAS008', name: 'Betel Leaf', category: 'Cash Crops', variety: 'Betel', unit: 'Kg' },
+  { id: 'CAS009', name: 'Areca Nut', category: 'Cash Crops', variety: 'Areca', unit: 'Kg' },
+  { id: 'CAS010', name: 'Cocoa', category: 'Cash Crops', variety: 'Cocoa', unit: 'Kg' },
+  { id: 'CAS011', name: 'Silk Cocoon', category: 'Cash Crops', variety: 'Silk', unit: 'Kg' },
+  { id: 'CAS012', name: 'Lac', category: 'Cash Crops', variety: 'Lac', unit: 'Kg' },
+  { id: 'CAS013', name: 'Cashew Raw', category: 'Cash Crops', variety: 'Cashew Raw', unit: 'Kg' },
+  { id: 'CAS014', name: 'Tamarind', category: 'Cash Crops', variety: 'Tamarind', unit: 'Kg' },
+  { id: 'CAS015', name: 'Amla', category: 'Cash Crops', variety: 'Amla', unit: 'Kg' },
+  { id: 'CAS016', name: 'Neem', category: 'Cash Crops', variety: 'Neem', unit: 'Kg' },
+  { id: 'CAS017', name: 'Bamboo', category: 'Cash Crops', variety: 'Bamboo', unit: 'Tonnes' },
+  { id: 'CAS018', name: 'Hemp', category: 'Cash Crops', variety: 'Hemp', unit: 'Kg' },
+  { id: 'CAS019', name: 'Indigo', category: 'Cash Crops', variety: 'Indigo', unit: 'Kg' },
+  { id: 'CAS020', name: 'Henna', category: 'Cash Crops', variety: 'Henna', unit: 'Kg' },
+
+  // Millets (10 varieties)
+  { id: 'MIL001', name: 'Jowar', category: 'Millets', variety: 'Sorghum', unit: 'Quintal' },
+  { id: 'MIL002', name: 'Bajra', category: 'Millets', variety: 'Pearl Millet', unit: 'Quintal' },
+  { id: 'MIL003', name: 'Ragi', category: 'Millets', variety: 'Finger Millet', unit: 'Quintal' },
+  { id: 'MIL004', name: 'Foxtail Millet', category: 'Millets', variety: 'Foxtail', unit: 'Quintal' },
+  { id: 'MIL005', name: 'Little Millet', category: 'Millets', variety: 'Little', unit: 'Quintal' },
+  { id: 'MIL006', name: 'Kodo Millet', category: 'Millets', variety: 'Kodo', unit: 'Quintal' },
+  { id: 'MIL007', name: 'Barnyard Millet', category: 'Millets', variety: 'Barnyard', unit: 'Quintal' },
+  { id: 'MIL008', name: 'Proso Millet', category: 'Millets', variety: 'Proso', unit: 'Quintal' },
+  { id: 'MIL009', name: 'Browntop Millet', category: 'Millets', variety: 'Browntop', unit: 'Quintal' },
+  { id: 'MIL010', name: 'Mixed Millets', category: 'Millets', variety: 'Mixed', unit: 'Quintal' },
+
+  // Flowers (10 varieties)
+  { id: 'FLO001', name: 'Rose', category: 'Flowers', variety: 'Rose', unit: 'Kg' },
+  { id: 'FLO002', name: 'Marigold', category: 'Flowers', variety: 'Marigold', unit: 'Kg' },
+  { id: 'FLO003', name: 'Jasmine', category: 'Flowers', variety: 'Jasmine', unit: 'Kg' },
+  { id: 'FLO004', name: 'Chrysanthemum', category: 'Flowers', variety: 'Chrysanthemum', unit: 'Kg' },
+  { id: 'FLO005', name: 'Lotus', category: 'Flowers', variety: 'Lotus', unit: 'Nos' },
+  { id: 'FLO006', name: 'Tuberose', category: 'Flowers', variety: 'Tuberose', unit: 'Kg' },
+  { id: 'FLO007', name: 'Lily', category: 'Flowers', variety: 'Lily', unit: 'Nos' },
+  { id: 'FLO008', name: 'Orchid', category: 'Flowers', variety: 'Orchid', unit: 'Nos' },
+  { id: 'FLO009', name: 'Carnation', category: 'Flowers', variety: 'Carnation', unit: 'Nos' },
+  { id: 'FLO010', name: 'Gladiolus', category: 'Flowers', variety: 'Gladiolus', unit: 'Nos' },
+];
+
+export const COMMODITY_CATEGORIES = [
+  'Coconut',
+  'Mushroom',
+  'Rice',
+  'Wheat',
+  'Pulses',
+  'Spices',
+  'Vegetables',
+  'Fruits',
+  'Nuts',
+  'Oilseeds',
+  'Cash Crops',
+  'Millets',
+  'Flowers'
+];
+
+export function getCommoditiesByCategory(category: string): Commodity[] {
+  return COMMODITIES.filter(c => c.category === category);
+}
+
+export function searchCommodities(query: string): Commodity[] {
+  const lowerQuery = query.toLowerCase();
+  return COMMODITIES.filter(c => 
+    c.name.toLowerCase().includes(lowerQuery) ||
+    c.category.toLowerCase().includes(lowerQuery) ||
+    (c.variety && c.variety.toLowerCase().includes(lowerQuery))
+  );
+}
+
+export function getCommodityById(id: string): Commodity | undefined {
+  return COMMODITIES.find(c => c.id === id);
+}
